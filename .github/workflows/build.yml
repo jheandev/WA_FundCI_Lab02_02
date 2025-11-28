@@ -9,9 +9,9 @@ jobs:
       run:
         working-directory: Lab02
     steps:
+      - uses: actions/checkout@v3
       - run: node --version
       - run: npm --version
-      - uses: actions/checkout@v3
       - run: npm install
       - run: npm install --save moment
       - run: node app.js
