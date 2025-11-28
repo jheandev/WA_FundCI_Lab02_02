@@ -1,4 +1,4 @@
-name: Simple Local
+name: Simple Local v2
 on: push
 jobs:
     first-job:
